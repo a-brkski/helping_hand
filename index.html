@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Helping Hand</title>
+</head>
+<body>
+  <h1>Welcome to our site</h1>
+
+ 
+  <script>
+  (function(w,d,s,n,a){
+    if(!w[n]){
+      var l='call,catch,on,once,set,then,track'.split(','),
+          i, o=function(n){
+            return typeof n === 'function' ? o.l.push([arguments]) && o :
+            function(){ return o.l.push([n,arguments]) && o }
+          },
+          t=d.getElementsByTagName(s)[0],
+          j=d.createElement(s);
+      j.async=true;
+      j.src='https://cdn.fundraiseup.com/widget/'+a;
+      t.parentNode.insertBefore(j,t);
+      o.s=Date.now(); o.v=4; o.h=w.location.href; o.l=[];
+      for(i=0;i<7;i++) o[l[i]]=o(l[i]);
+      w[n]=o;
+    }
+  })(window,document,'script','FundraiseUp','AEMZUDUM');
+  </script>
+</body>
+</html>
 
